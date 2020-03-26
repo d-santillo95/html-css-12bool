@@ -17,8 +17,16 @@ body{
     height: 20px;
 }
 
+[class *= col-]:last-child{
+    border-right: none;
+}
+[class *= col-]:first-child{
+    border-left: none;
+}
+
 .red{
     background-color: red;
+    border: 1px solid black;
 }
 
 .black{
@@ -27,16 +35,20 @@ body{
 
 .grey{
     background-color: #969696;
+    border: 1px solid black;
 }
 
 .dgrey{
     background-color: #505050;
+    border: 1px solid black;
 }
 
 .brown{
     background-color: #894310;
+    border: 1px solid black;
 }
 
 .white{
     background-color: white;
+    border: 1px solid black;
 }
