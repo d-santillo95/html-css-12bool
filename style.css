@@ -1,7 +1,11 @@
-.container{
-    max-width: 360px;
-    margin: 0 auto;
+body{
+    background-color: darkblue;
 }
+
+.container{
+    max-width: 480px;
+    margin: 0 auto;
+    background-image: radial-gradient(lightblue, blue , darkblue 65%);}
 
 .container::after{
     content: " ";
@@ -10,7 +14,7 @@
 }
 
 [class *= col-] > [class *= col-]{
-    height: 15px;
+    height: 20px;
 }
 
 .red{
@@ -31,4 +35,8 @@
 
 .brown{
     background-color: #894310;
+}
+
+.white{
+    background-color: white;
 }
